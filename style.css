@@ -44,11 +44,11 @@ h1.card-title-color {
 .text-content {
   color: hsl(193, 38%, 86%);
   font-size: 1.75rem;
-  opacity: 0;
+  opacity: ;
 }
 
 .fade {
-  opacity: 1 !important;
+  opacity: 0 !important;
   transition: opacity 1.5s;
 }
 
