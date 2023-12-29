@@ -30,8 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Frontend Mentor - Advice generator app - desktop.png](./screenshots\Frontend Mentor - Advice generator app - desktop.png)
-![Frontend Mentor - Advice generator app - mobile.png](./screenshots\Frontend Mentor - Advice generator app - mobile.png)
+![Frontend Mentor - Advice generator app - desktop.png](./screenshots/Frontend%20Mentor%20-%20Advice%20generator%20app%20-%20desktop.png)
+
+![Frontend Mentor - Advice generator app - mobile.png](./screenshots/Frontend%20Mentor%20-%20Advice%20generator%20app%20-%20mobile.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
