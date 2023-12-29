@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+body {
+  background-color: hsl(218, 23%, 16%) !important;
+  font-family: "Manrope", sans-serif !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.conatiner {
+  margin: 0;
+  padding: 0;
+}
+
+.center-card {
+  height: 100;
+  display: flex;
+  align-items: cente;
+  justify-content: center;
+}
+
+.custom-card {
+  background-color: hsl(217, 19%, 24%) !important;
+  width: 300px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px 30px 60px;
+  border-radius: 15px !important;
+}
+
+.card-title {
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+h1.card-title-color {
+  color: hsl(150, 100%, 66%);
+}
+
+.text-content {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.75rem;
+  opacity: 0;
+}
+
+.fade {
+  opacity: 1 !important;
+  transition: opacity 1.5s;
+}
+
+button.rounded-btn {
+  border: none;
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #52ffa8;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button:hover {
+  box-shadow: 2px 2px 20px 12px rgba(82, 255, 168, 0.61);
+}
+
+.attribution {
+  font-size: 0.875rem;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  margin-top: 60px;
+}
+.attribution a {
+  color: hsl(193, 38%, 86%);
+}
+
+@media (min-width: 768px) {
+  .custom-card {
+    width: 500px;
+  }
+}
