@@ -15,5 +15,3 @@ async function fetchAdvice() {
   adviceContainer.textContent = data.slip.advice;
   adviceContainer.classList.add("fade");
 }
-
-fetchAdvice();
