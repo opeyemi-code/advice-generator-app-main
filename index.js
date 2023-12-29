@@ -8,10 +8,10 @@ const url = "https://api.adviceslip.com/advice";
 btn.addEventListener("click", fetchAdvice);
 
 async function fetchAdvice() {
-  adviceContainer.classList.remove("fade");
+  adviceContainer.classList.add("fade");
   const response = await fetch(url);
   const data = await response.json();
   adviceId.textContent = data.slip.id;
   adviceContainer.textContent = data.slip.advice;
-  adviceContainer.classList.add("fade");
+  adviceContainer.classList.remove("fade");
 }
